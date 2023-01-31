@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 const authRoutes = require("./routes/user.route");
 
-require("dotenv").config
+require("dotenv").configg();
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
